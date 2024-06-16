@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="간단한 일본어 연습"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:src="@drawable/japan"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="원하는 학습을 선택하세요"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <android.widget.Button
+        android:id="@+id/btnHira"
+        android:background="#F34E86"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="히라가나(ひらがな)"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"/>
+
+    <android.widget.Button
+        android:id="@+id/btnGata"
+        android:background="#F42069"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가타카나(かたかな)"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"/>
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnQuiz"
+        android:background="#F34E86"
+        android:text="히라가나 퀴즈 풀기"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"/>
+
+</LinearLayout>
